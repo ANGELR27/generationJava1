@@ -44,13 +44,15 @@ public class Main {
         double salarioMensual = ar.nextDouble();
         ar.nextLine();
 
-        tu
+        System.out.println("---Datos del usuario---");
 
         System.out.println("Nombre: " + nombre);
-        System.out.println("edad: " + edad + "naciste en el año" + (edad-2025));
+        System.out.println("edad: " + edad + "naciste en el año " + (edad-2025));
         System.out.println("nacionalidad: " + nacionalidad);
         System.out.println("ocupacion: " + nombre);
         System.out.println("salario mensual: " + salarioMensual);
+
+        ar.close();
 
     }
 }
